@@ -1,0 +1,41 @@
+character set: WX
+
+Vowels
+अ 	आ 	इ 	ई 	उ 	ऊ 	ए 	ऐ 	ओ 	औ
+a 	A 	i 	I 	u 	U 	e 	E 	o 	O 
+
+Sonorants
+ऋ 	ॠ 	ऌ
+q 	Q 	L 
+
+Anusvāra and visarga and Anunasika
+अं 	अः  अँ
+M 	H   z 
+
+Consonants
+Velar
+क् 	ख् 	ग् 	घ् 	ङ्
+k 	K 	g 	G 	f 	
+Palatal
+च् 	छ् 	ज् 	झ् 	ञ्
+c 	C 	j 	J 	F 	
+Retroflex
+ट् 	ठ् 	ड् 	ढ् 	ण्
+t 	T 	d 	D 	N 	
+Dental
+त् 	थ् 	द् 	ध् 	न्
+w 	W 	x 	X 	n 	
+Labial
+प् 	फ् 	ब् 	भ् 	म्
+p 	P 	b 	B 	m 	
+Semi-vowel
+य् 	र् 	ल् 	व्
+y 	r 	l 	v 		
+Fricative
+श् 	ष् 	स् 	ह्
+S 	R 	s 	h 		
+
+(missing in Devanagari)
+'Y' to get the next ISCII character - 'l' represents ल (U0932) of Devanagari, and 'lY' represents ळ (U0933) in Marathi
+'V' to get the previous ISCII character - 'e' represents ए (U090F) of Devanagari or ఏ (U0C0F) of Telugu, and eV represents ऎ (U090E) or ఎ (U0C0E) of Telugu
+'Z' to add the nukta - 'ka' represents क of Devanagari, and 'kZa' represents क़ of Urdu

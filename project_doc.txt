@@ -1,0 +1,36 @@
+limitations:
+
+1. parsing of devanagri script
+solution: wx notation for input and output
+
+2. obtaining weather data
+    a. api
+        - does not provide all required fields
+        - cannot be requested by date/not date stamps either (all relative)
+        - requires coordiated WOEID
+        - cannot search by place name
+        - no history/forecast
+        - not available for indian data
+        - service shut down
+    b. website
+        - lack of standard formatting
+        - no historical data
+        - not all fields for forecast
+        - services not provided for india
+        - tool for webscraping not working correctly
+        - sometimes slow response
+solution: use imd site, but only the table for daily info - weekly forecast not preserved on scraping using bs4
+          for weekly data use dummy values, just to demonstate procedure/working
+
+hence, domain restricted to queries of frour types regarding the current day and general query for rest of the week
+
+
+day_data = []
+# max_t, dep_max, min_t, dep_min, rain, hum_morn, hum_even, avg_t, avg_h
+week_data = [] # index 0 for current day, indices 1-6 for following week, index 7 for weekly averages
+# [ max_t, min_t, avg_t, avg_h ] is each element
+
+note:
+- only capital cities
+- city names accepted in english
+- old and new names both accepted
